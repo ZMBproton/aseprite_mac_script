@@ -1,5 +1,5 @@
 # aseprite_mac_script
-Script to make compiling aseprite on mac easier for anyone in a hurry. :)
+Zsh script to make compiling aseprite on macOS easier for anyone in a hurry. 
 
 # Instructions
 1. Install the aseprite.sh file and make sure it is in your downloads folder.
@@ -8,7 +8,7 @@ Script to make compiling aseprite on mac easier for anyone in a hurry. :)
 - `cd Downloads`
 - `chmod +x ./aseprite.sh`
 - `./aseprite.sh`
-4. Please wait, this will take some time. :D
+4. Please wait, this will take some time. :)
   
 # Dependencies and tools installed in the process:
 - homebrew (cli package manager for macOS)
