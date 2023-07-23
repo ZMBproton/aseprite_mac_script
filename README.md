@@ -1,13 +1,19 @@
 # aseprite_mac_script
 Script to make compiling aseprite on mac easier for anyone in a hurry. :)
 
-# Copy paste this
-`chmod +x ./aseprite.sh`
-
-# Dependencies and tools to be installed for compiling:
-- homebrew
-- cmake
-- ninja
-- skia
-- macOS SDK
-- xcode
+# Instructions
+1. Install the aseprite.sh file and make sure it is in your downloads folder.
+2. Open the "Terminal" app. (CMD+space then type "Terminal" if you don't know where to find it)
+3. Copy and paste these three commands in order
+- `cd Downloads`
+- `chmod +x ./aseprite.sh`
+- `./aseprite.sh`
+4. Please wait, this will take some time. :D
+  
+# Dependencies and tools installed in the process:
+- homebrew (cli package manager for macOS)
+- cmake (build tool)
+- ninja (another build tool)
+- skia (library that asperite uses)
+- macOS SDK (used by cmake)
+- xcode command line tools (used by cmake)
