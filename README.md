@@ -1,5 +1,5 @@
 # aseprite_mac_script
-Zsh script to make compiling aseprite on macOS easier for anyone in a hurry. 
+Script to compile aseprite on macOS. 
 
 # Instructions
 1. Install the aseprite.sh file and make sure it is in your downloads folder.
@@ -17,3 +17,8 @@ Zsh script to make compiling aseprite on macOS easier for anyone in a hurry.
 - skia (library that asperite uses)
 - macOS SDK (used by cmake)
 - xcode command line tools (used by cmake)
+
+# To be added
+Automate installation of the trial aseprite .dmg version, replace trial's executable with the newly compiled executable located in /usr/local/bin then add to Applications folder.
+
+You can just install the trial yourself using the GUI on aseprite's official website meanwhile then drag and drop the executables.
